@@ -1,5 +1,44 @@
 /* added draft bgColor */
-
 body{
     background-color: #D3D3D3;
 }
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@media screen and (min-width: 800px) {
+  body {
+ background-color: #D3D3D3;
+    font-family: "Poppins";
+    color: white;
+  }
+  #logo {
+    position: absolute;
+    height: 7%;
+    width: 4%;
+    left: 5.5%;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  #label1 {
+    left: 11%;
+  }
+  #maindiv {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #D3D3D3;;
+  }
+  .mainli {
+    font-size: 17px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    
+  }
+  .mainli:hover {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  
+
+  
+}
+/*# sourceMappingURL=webshell.css.map */
