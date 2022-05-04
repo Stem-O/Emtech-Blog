@@ -14,9 +14,17 @@ body{
     height: 7%;
     width: 4%;
     left: 5.5%;
+
     -webkit-box-align: end;
         -ms-flex-align: end;
             align-items: flex-end;
+  }
+  #logo:hover{
+      animation:slideDown 2s linear;
+  }
+  @keyframes slideDown {
+    to { transform: rotate(360deg); }
+    
   }
   #label1 {
     left: 11%;
